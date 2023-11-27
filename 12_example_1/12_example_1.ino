@@ -8,8 +8,8 @@
 #define _DUTY_NEU 1480 // servo neutral position (90 degree)
 #define _DUTY_MAX 2430 // servo full counter-clockwise position (180 degree)
 
-#define _POS_START (_DUTY_MIN + 100)    // servo start position
-#define _POS_END   (_DUTY_MAX - 100)    // servo end position
+#define _POS_START (_DUTY_MIN)    // servo start position
+#define _POS_END   (_DUTY_MAX)    // servo end position
 
 #define _SERVO_SPEED 180 // servo speed limit (unit: degree/second)
 #define INTERVAL 20     // servo update interval (unit: msec)

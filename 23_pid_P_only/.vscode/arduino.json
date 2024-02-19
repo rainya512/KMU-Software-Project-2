@@ -1,0 +1,6 @@
+{
+    "port": "COM3",
+    "board": "arduino:avr:uno",
+    "programmer": "avrispmkii",
+    "sketch": "23_pid_P_only.ino"
+}
